@@ -1,0 +1,289 @@
+body{
+    /* background-color: navajowhite; */
+    font-family: 'Roboto', sans-serif; 
+    box-sizing: border-box;
+}
+#container{
+    /* position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center; */
+    /* padding-left: 5em;
+    padding-right: 5em; */
+    background-color: rgb(250, 243, 243);
+    width: 960px;
+    padding: 0px 20px ;
+    margin-right: auto;
+    margin-left: auto;
+}
+/* no texto se falta sobre colocar 960 px, mas e a responsividade? preferi colocar o padding para se obter
+o efeito desejado */
+header{
+    background-color: white;
+    text-align: center;
+    width: 940px;
+    margin-left: 10px;
+}
+.invisivel{
+    display: none;
+}
+.Logo{
+    border-radius: 5em;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    background-color: #552200;
+    padding: 12.5px 200px;
+}
+nav a{
+    /* padding: auto 200px; */
+    text-decoration: none;
+    color:rgb(250, 243, 243);
+}
+.Banner{
+    position: relative;
+}
+.inside-circle{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(63, 37, 37, 0.6);
+    top: 15px;
+    left: 45px;
+    padding: 40px;
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;   
+}
+.inside-circle-p{
+    color: rgb(250, 243, 243);
+}
+#Título{
+    text-align: center;
+    font-size: 3.7em;
+    color: #552200;
+    padding: 30px 0;
+    
+}
+#Título span{
+    font-weight: 700;
+}
+#index-section{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 70px;
+}
+.escolha{
+    margin-top: 20px;
+    width: 470px;
+}
+.escolha div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 60px;
+    font-size: 0.9em;
+}
+.escolha h2{
+    font-style: italic;
+}
+.onde{
+    margin-top: 20px;
+    width: 470px;
+}
+.onde div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.onde h2{
+    font-style: italic;
+}
+
+.Banner img{
+    background-size:100%;
+    margin-left: 10px;
+
+}
+footer{
+
+    background-color: white;
+    display: flex;
+    justify-content: right;
+    padding-bottom: 40px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+/* h1, h2, p, a{
+    font-family: 'Roboto', sans-serif; 
+} */
+
+h1{
+    font-size: 2em;
+    font-weight: bold;
+    color: #552200;
+    margin: 20px 10px;
+}
+
+h2{
+    font-size:1.5em;
+    font-weight: bold;
+    color: #552200;
+    margin: 20px 10px;
+    
+}
+p, b{
+    margin-left: 10px;
+    /* padding-right: 100px; */
+}
+
+#pre-cardapio{
+    text-align: center;
+    font-size: 3.7em;
+    color: #552200;
+    /* padding: 30px 0; */
+    
+}
+#pre-cardapio span{
+    font-weight: bold;
+}
+.cardapio-titulo{
+    min-height: 100px;
+    width:840px;
+    margin-left:50px;
+    text-align: center;
+    
+}
+.cardapio{
+    display: flex;
+    justify-content: space-around;
+    background-color: #77401f;
+    color: rgb(250, 243, 243);
+    
+    
+}
+
+ .cardapio .foto p{
+    text-align: center;
+    margin-bottom: 100px;
+    font-size: 1.2em;
+    
+    /* min-width: 280px; */
+    
+}
+
+.cardapio .descrição{
+    min-height: 300px;
+    
+    min-width: 280px;
+    
+}
+.cardapio .descrição .titulo2{
+    text-align: center;
+    margin-right: 60px;
+    margin-bottom: 100px;
+    font-size: 1.2em;
+}
+ 
+.cardapio .descrição .quente{
+    margin-bottom: 150px;
+}
+.cardapio .descrição .gelado{
+    margin-bottom: 155px;
+}
+.cardapio .descrição .alcoolico{
+    margin-bottom: 160px;
+}
+.cardapio .descrição .chocolate{
+    margin-bottom: 150px;
+}
+
+.cardapio .preço{
+    /* min-height: 300px;
+    
+    min-width: 280px; */
+    text-align: center;
+    margin-right: 55px;
+    
+}
+.cardapio .preço .ptitulo{
+    font-size: 1.2em;
+    margin-bottom: 100px;
+}
+.cardapio .preço .p1{
+    margin-bottom: 200px;
+}
+.cardapio .preço .p2{
+    margin-bottom: 200px;
+}
+.cardapio .preço .p3{
+    margin-bottom: 200px;
+}
+.cardapio .preço .p{
+    margin-bottom: 200px;
+}
+.rodapé{
+    width:954px;
+    text-align: center;
+    margin-top: 10px;
+    background-color: #77401f;
+    color: rgb(250, 243, 243);
+    padding:3px;
+    
+    
+}
+.copyright{
+    margin-top:30px;
+}
+
+
+/* form{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-60%, -50%);
+    text-align: center;
+    
+} */
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px 0px;
+    padding-bottom: 20px;
+}
+form label{
+    
+    color:#552200;
+    font-size: 1.25em;
+    font-weight: bold;
+    
+}
+
+.LogoContato{
+    margin: 10px;
+    text-align: center;
+}
+.NavegadorContato{
+    text-align: center;
+}
+
+.iframeMaps{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+/* .cardapio th{
+    display: flex;
+    text-align: center;
+} */
+
